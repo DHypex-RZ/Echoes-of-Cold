@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3235240822294413469
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 7eb3918ea609e4648a5e65fb37fd7602, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.189
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7eb3918ea609e4648a5e65fb37fd7602, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7eb3918ea609e4648a5e65fb37fd7602, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.424
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7eb3918ea609e4648a5e65fb37fd7602, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7eb3918ea609e4648a5e65fb37fd7602, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.00000008146035
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7eb3918ea609e4648a5e65fb37fd7602, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0000005960464
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7eb3918ea609e4648a5e65fb37fd7602, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -4.263256e-14
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7eb3918ea609e4648a5e65fb37fd7602, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7eb3918ea609e4648a5e65fb37fd7602, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7eb3918ea609e4648a5e65fb37fd7602, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7eb3918ea609e4648a5e65fb37fd7602, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 60aaf654c0d151c4e92c46e24b1fd68d, type: 2}
+    - target: {fileID: 919132149155446097, guid: 7eb3918ea609e4648a5e65fb37fd7602, type: 3}
+      propertyPath: m_Name
+      value: Diario_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7eb3918ea609e4648a5e65fb37fd7602, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7eb3918ea609e4648a5e65fb37fd7602, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8121438104907430179}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7eb3918ea609e4648a5e65fb37fd7602, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7270036924985112258}
+  m_SourcePrefab: {fileID: 100100000, guid: 7eb3918ea609e4648a5e65fb37fd7602, type: 3}
+--- !u!1 &2316129708816645580 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7eb3918ea609e4648a5e65fb37fd7602, type: 3}
+  m_PrefabInstance: {fileID: 3235240822294413469}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &8121438104907430179
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2316129708816645580}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 0.65, z: 0.75}
+  m_Center: {x: 0.22354545, y: -0.020508923, z: 0.56}
+--- !u!114 &7270036924985112258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2316129708816645580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2098e43702b7a241aff6b9795235dde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionsWithPlayer:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: HUD.InteractionController, Assembly-CSharp
+        m_MethodName: ActiveText
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  actionsWithoutPlayer:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: HUD.InteractionController, Assembly-CSharp
+        m_MethodName: ActiveText
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  hintImage: {fileID: 21300000, guid: 6bf86ab9a02520245a90ec01bb90ec24, type: 3}
+  hintText: "Pista n\xBA2"
+  hintDescription: "Descripci\xF3n Pista n\xBA2"

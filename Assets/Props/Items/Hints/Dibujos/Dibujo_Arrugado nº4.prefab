@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8224072498523857619
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: e0222162ad01bd240ab0187f3d0b8880, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -16.816792
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e0222162ad01bd240ab0187f3d0b8880, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.4519923
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e0222162ad01bd240ab0187f3d0b8880, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 12.601896
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e0222162ad01bd240ab0187f3d0b8880, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e0222162ad01bd240ab0187f3d0b8880, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e0222162ad01bd240ab0187f3d0b8880, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.00000041093176
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e0222162ad01bd240ab0187f3d0b8880, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00000041093176
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e0222162ad01bd240ab0187f3d0b8880, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e0222162ad01bd240ab0187f3d0b8880, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e0222162ad01bd240ab0187f3d0b8880, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e0222162ad01bd240ab0187f3d0b8880, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1e183386aa1b6f049be51b7010ec2e89, type: 2}
+    - target: {fileID: 919132149155446097, guid: e0222162ad01bd240ab0187f3d0b8880, type: 3}
+      propertyPath: m_Name
+      value: "Dibujo_Arrugado n\xBA4"
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e0222162ad01bd240ab0187f3d0b8880, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3122929716132831848}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e0222162ad01bd240ab0187f3d0b8880, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 93624132078097759}
+  m_SourcePrefab: {fileID: 100100000, guid: e0222162ad01bd240ab0187f3d0b8880, type: 3}
+--- !u!1 &9142500262305324930 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e0222162ad01bd240ab0187f3d0b8880, type: 3}
+  m_PrefabInstance: {fileID: 8224072498523857619}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3122929716132831848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9142500262305324930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2098e43702b7a241aff6b9795235dde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionsWithPlayer:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: HUD.InteractionController, Assembly-CSharp
+        m_MethodName: ActiveText
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  actionsWithoutPlayer:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: HUD.InteractionController, Assembly-CSharp
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  hintImage: {fileID: 21300000, guid: 4a55c5b96b1796441985d6ea72579e6a, type: 3}
+  hintText: "Pista n\xBA7"
+  hintDescription: "Descripci\xF3n Pista n\xBA7"
+--- !u!65 &93624132078097759
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9142500262305324930}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.91322833, y: 0.087641604, z: 0.5116402}
+  m_Center: {x: -0.0015701056, y: -0.008307572, z: -0.007831501}
